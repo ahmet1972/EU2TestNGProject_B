@@ -1,6 +1,6 @@
 package com.cybertek.tests.ahmetsHomework;
 
-public class basicNavigation {
+public class BasicNavigation01 {
 
     /*
     Basic	Navigation	Tests

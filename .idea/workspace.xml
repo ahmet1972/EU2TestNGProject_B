@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce4f3d10-0eab-489b-8123-a94860201d19" name="Default Changelist" comment="" />
+    <list default="true" id="ce4f3d10-0eab-489b-8123-a94860201d19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/ahmetsHomework/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/ahmetsHomework/Locators02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/ahmetsHomework/basicNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/ahmetsHomework/BasicNavigation01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_driver_tests/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day14_properties_driver_tests/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testing/BeforeAfterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testNg/BeforeAfterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testing/FirstTestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testNg/FirstTestNGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testing/TestNGAssertionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testNg/TestNGAssertionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/ahmetsHomework/Locators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/ahmetsHomework/basicNavigation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_properties_driver_tests/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day14_properties_driver_tests/SingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_testing/BeforeAfterTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_testing/FirstTestNGTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day7_testing/TestNGAssertionsDemo.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +33,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +44,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZUSBQTQaRIYS6ko2AgYS70srVS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.Locators.test3">
+  <component name="RunManager">
     <configuration name="nameLocaterTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_basic_locators.nameLocaterTest" />
       <module name="EU2TestNGProject" />
@@ -66,16 +87,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGAssertionsDemo.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.ahmetsHomework.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day7_testNg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.ahmetsHomework" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.ahmetsHomework.Locators" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testNg" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testNg.TestNGAssertionsDemo" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -84,34 +105,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGAssertionsDemo.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.ahmetsHomework.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day7_testNg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.ahmetsHomework" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.ahmetsHomework.Locators" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Locators.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.ahmetsHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.ahmetsHomework" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.ahmetsHomework.Locators" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day7_testNg" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day7_testNg.TestNGAssertionsDemo" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -120,17 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTablesExample.PrintAllCellsByIndex" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="day10_Homework_12345.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_webTables.*" />
+          <option name="PATTERN" value="com.cybertek.tests.ahmetsHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_webTables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_webTables.WebTablesExample" />
-      <option name="METHOD_NAME" value="PrintAllCellsByIndex" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.ahmetsHomework" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.ahmetsHomework.day10_Homework_12345" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,17 +141,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTablesExample.getAllHeaders" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="day10_Homework_12345.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day13_webTables.*" />
+          <option name="PATTERN" value="com.cybertek.tests.ahmetsHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day13_webTables" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day13_webTables.WebTablesExample" />
-      <option name="METHOD_NAME" value="getAllHeaders" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.ahmetsHomework" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.ahmetsHomework.day10_Homework_12345" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day10_Homework_12345.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.ahmetsHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.ahmetsHomework" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.ahmetsHomework.day10_Homework_12345" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Locators.test3" />
-        <item itemvalue="TestNG.Locators.test2" />
-        <item itemvalue="TestNG.Locators.test1" />
-        <item itemvalue="TestNG.WebTablesExample.PrintAllCellsByIndex" />
-        <item itemvalue="TestNG.WebTablesExample.getAllHeaders" />
+        <item itemvalue="TestNG.day10_Homework_12345.test4" />
+        <item itemvalue="TestNG.day10_Homework_12345.test3" />
+        <item itemvalue="TestNG.day10_Homework_12345.test2" />
+        <item itemvalue="TestNG.TestNGAssertionsDemo.test3" />
+        <item itemvalue="TestNG.TestNGAssertionsDemo.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -197,29 +218,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585859319447" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom" timestamp="1589286622833">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="25" key="GridCell.Tab.0.bottom" timestamp="1589584685728">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589152864842" />
-    <state width="1877" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589286622833" />
+    <state width="1323" height="25" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589584685728" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589368792643" />
     <state width="1323" height="77" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587729485536" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center" timestamp="1589286622833">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="25" key="GridCell.Tab.0.center" timestamp="1589584685728">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589152864842" />
-    <state width="1877" height="244" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589286622833" />
+    <state width="1323" height="25" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589584685728" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589368792643" />
     <state width="1323" height="77" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587729485536" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left" timestamp="1589286622832">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="25" key="GridCell.Tab.0.left" timestamp="1589584685727">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589152864841" />
-    <state width="1877" height="244" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589286622832" />
+    <state width="1323" height="25" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589584685727" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589368792643" />
     <state width="1323" height="77" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587729485535" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right" timestamp="1589286622833">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1323" height="25" key="GridCell.Tab.0.right" timestamp="1589584685728">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589152864842" />
-    <state width="1877" height="244" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589286622833" />
+    <state width="1323" height="25" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589584685728" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589368792643" />
     <state width="1323" height="77" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587729485536" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585856677742">
       <screen x="0" y="0" width="1366" height="728" />
@@ -245,10 +266,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584895771111" />
-    <state x="1916" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1589263854659">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1589666829073">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589170768604" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589666829073" />
     <state x="1916" y="273" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589263854659" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587724838367" />
     <state x="65" y="0" key="new project wizard" timestamp="1589309872145">

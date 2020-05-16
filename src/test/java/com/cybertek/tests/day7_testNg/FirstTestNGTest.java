@@ -1,4 +1,4 @@
-package com.cybertek.tests.day7_testing;
+package com.cybertek.tests.day7_testNg;
 
 import org.testng.annotations.Test;
 

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class Locators {
+public class Locators02 {
 
     WebDriver driver;
 
@@ -63,18 +63,29 @@ public class Locators {
     }
 
     @Test
-    public void test3(){
-        driver.get("https://en.wikipedia.org/wiki/Wikipedia:External_links");
-        WebElement searchBox = driver.findElement(By.xpath("//input[@value='Special:Search']"));
-        searchBox.sendKeys("selenium webdriver");
-        WebElement searchButton = driver.findElement(By.cssSelector("id('searchButton')"));
-        searchButton.click();
-        //WebElement inSearchResults = driver.findElement(By.);
+    public void test3() throws InterruptedException {
 
+        driver.get("https://www.wikipedia.org");
 
+        driver.findElement(By.id("searchInput")).sendKeys("selenium webdriver");
 
+        driver.findElement(By.xpath("//i[.='Search']")).click(); //>  /html/body/div[2]/form/fieldset/button/i
 
+        driver.findElement(By.linkText("Selenium (software)")).click();
 
+        String url= driver.getCurrentUrl();
+        System.out.println(url);
+
+        String[]urls = url.split("/");
+        String expected= "Selenium_(software)";
+
+        for(String str: urls){
+            if(str.equalsIgnoreCase(expected)){
+                System.out.println("PASS");
+            }else{
+                System.out.println("FAIL");
+            }
+        }
 
     }
 

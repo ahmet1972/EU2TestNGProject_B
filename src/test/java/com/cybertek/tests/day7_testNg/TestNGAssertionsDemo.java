@@ -1,4 +1,4 @@
-package com.cybertek.tests.day7_testing;
+package com.cybertek.tests.day7_testNg;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -30,7 +30,7 @@ public class TestNGAssertionsDemo {
         //verify that your title is starting with Cyb
 
         Assert.assertTrue(actualTitle.startsWith(expectedTitle));
-        Assert.assertTrue(1>1,"i am checking is 2 greater than 1");
+        Assert.assertTrue(1>1,"i am checking if 2 is greater than 1");
     }
 
     @Test
