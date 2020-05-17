@@ -12,7 +12,7 @@ public class LoginPage {
     }
 
     //same with driver.findElement(By.id("prependedInput"));
-    @FindBy(id = "prependedInput")
+    @FindBy(name = "_username")
     public WebElement usernameInput;
 
     @FindBy(id = "prependedInput2")
@@ -20,6 +20,14 @@ public class LoginPage {
 
     @FindBy(id = "_submit")
     public WebElement loginBtn;
+
+    public void login(String usernameStr,String passwordStr){
+
+        usernameInput.sendKeys(usernameStr);
+        passwordInput.sendKeys(passwordStr);
+        loginBtn.click();
+
+    }
 
 
 
