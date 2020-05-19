@@ -20,6 +20,18 @@ public class PositiveLoginTest extends TestBase {
         Assert.assertEquals(driver.getCurrentUrl(),"https://qa3.vytrack.com/","verify we successfuly login");
     }
 
+    @Test
+    public void loginAsStoreManager(){
+        LoginPage loginPage = new LoginPage();
+
+        String username = ConfigurationReader.get("storemanager_username");
+        String password = ConfigurationReader.get("storemanager_password");
+
+        loginPage.login(username,password);
+
+        Assert.assertEquals(driver.getCurrentUrl(),"https://qa3.vytrack.com/","verify we successfuly login");
+    }
+
 
 
 

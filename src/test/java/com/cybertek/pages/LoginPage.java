@@ -2,6 +2,7 @@ package com.cybertek.pages;
 
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -12,7 +13,10 @@ public class LoginPage {
     }
 
     //same with driver.findElement(By.id("prependedInput"));
-    @FindBy(name = "_username")
+    @FindAll({
+            @FindBy(id = "prependedInput"),
+            @FindBy(name = "_username"),
+    })
     public WebElement usernameInput;
 
     @FindBy(id = "prependedInput2")
