@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-class StaleTest extends TestBase { // Why it doesn't accept public access modifier?????????????
+public class StaleTest extends TestBase {
 
     @Test
     public void test1(){
@@ -21,7 +21,7 @@ class StaleTest extends TestBase { // Why it doesn't accept public access modifi
 
         //go to google again
         driver.navigate().back();
-        input = driver.findElement(By.name("q"));//we repeat the same line on 16 because of the staleElementException
+        input = driver.findElement(By.name("q"));
         input.sendKeys("Java"+Keys.ENTER);
         results = driver.findElement(By.id("result-stats"));
 
@@ -29,10 +29,10 @@ class StaleTest extends TestBase { // Why it doesn't accept public access modifi
 
     }
 
-
 }
 
 
+//we repeat the same line on 16 because of the staleElementException
 
 
 
