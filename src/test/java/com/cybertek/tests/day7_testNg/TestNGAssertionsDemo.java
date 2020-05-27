@@ -38,7 +38,7 @@ public class TestNGAssertionsDemo {
         //verify that email contains @
         String email = "mikesmith.com";
 
-
+        // contains method comes from Java lang package
         Assert.assertTrue(email.contains("@"),"Verify email has @ sign");
 
     }

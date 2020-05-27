@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ce4f3d10-0eab-489b-8123-a94860201d19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_staleTest/staleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day15_staleTest/StaleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/CreateCalendarEventsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/RepeatOptionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day16_pom/RepeatOptionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testNg/TestNGAssertionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day7_testNg/TestNGAssertionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/RepeatOptionsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day16_pom/RepeatOptionsTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.RepeatOptionsTests.test1">
+  <component name="RunManager" selected="TestNG.ExtentDemoTest">
     <configuration name="nameLocaterTest" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day4_basic_locators.nameLocaterTest" />
       <module name="EU2TestNGProject" />
@@ -77,16 +82,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentDemoTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day16_pom.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_extent_reports.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.NegativeLoginTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_extent_reports" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_extent_reports.ExtentDemoTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -94,34 +99,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NegativeLoginTest.wrongPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtentDemoTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day16_pom.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day17_extent_reports.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.NegativeLoginTest" />
-      <option name="METHOD_NAME" value="wrongPasswordTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PageSubtitleTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.PageSubtitleTest" />
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_extent_reports" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_extent_reports.ExtentDemoTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -130,7 +117,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatOptionsTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NegativeLoginTestWithReport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day17_extent_reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_extent_reports" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_extent_reports.NegativeLoginTestWithReport" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeLoginTestWithReport.wrongUsernameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU2TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.tests.day17_extent_reports.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day17_extent_reports" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day17_extent_reports.NegativeLoginTestWithReport" />
+      <option name="METHOD_NAME" value="wrongUsernameTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatOptionsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU2TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -140,26 +162,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.tests.day16_pom" />
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day16_pom.RepeatOptionsTests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day10_Homework_12345.test4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU2TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.ahmetsHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.tests.ahmetsHomework" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.ahmetsHomework.day10_Homework_12345" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -168,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RepeatOptionsTests.test1" />
-        <item itemvalue="TestNG.PageSubtitleTest.test1" />
-        <item itemvalue="TestNG.NegativeLoginTest" />
-        <item itemvalue="TestNG.NegativeLoginTest.wrongPasswordTest" />
-        <item itemvalue="TestNG.day10_Homework_12345.test4" />
+        <item itemvalue="TestNG.ExtentDemoTest" />
+        <item itemvalue="TestNG.NegativeLoginTestWithReport" />
+        <item itemvalue="TestNG.NegativeLoginTestWithReport.wrongUsernameTest" />
+        <item itemvalue="TestNG.ExtentDemoTest.test1" />
+        <item itemvalue="TestNG.RepeatOptionsTests" />
       </list>
     </recent_temporary>
   </component>
@@ -207,29 +210,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585859319447" />
-    <state width="1877" height="45" key="GridCell.Tab.0.bottom" timestamp="1589912181833">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1306" height="161" key="GridCell.Tab.0.bottom" timestamp="1590577437582">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="243" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589905374742" />
-    <state width="1877" height="45" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589912181833" />
+    <state width="1306" height="161" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590577437582" />
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590018074796" />
     <state width="1323" height="77" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587729485536" />
-    <state width="1877" height="45" key="GridCell.Tab.0.center" timestamp="1589912181833">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1306" height="161" key="GridCell.Tab.0.center" timestamp="1590577437581">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="243" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589905374742" />
-    <state width="1877" height="45" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589912181833" />
+    <state width="1306" height="161" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590577437581" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590018074796" />
     <state width="1323" height="77" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587729485536" />
-    <state width="1877" height="45" key="GridCell.Tab.0.left" timestamp="1589912181833">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1306" height="161" key="GridCell.Tab.0.left" timestamp="1590577437581">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="243" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589905374742" />
-    <state width="1877" height="45" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589912181833" />
+    <state width="1306" height="161" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590577437581" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590018074796" />
     <state width="1323" height="77" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587729485535" />
-    <state width="1877" height="45" key="GridCell.Tab.0.right" timestamp="1589912181833">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state width="1306" height="161" key="GridCell.Tab.0.right" timestamp="1590577437581">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="243" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589905374742" />
-    <state width="1877" height="45" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589912181833" />
+    <state width="1306" height="161" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590577437581" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590018074796" />
     <state width="1323" height="77" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587729485536" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585856677742">
       <screen x="0" y="0" width="1366" height="728" />
@@ -255,11 +258,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584895771111" />
-    <state x="1916" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1589875567302">
-      <screen x="1366" y="0" width="1920" height="1040" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1590573837220">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1589750865596" />
-    <state x="1916" y="273" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1589875567302" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590573837220" />
+    <state x="1916" y="273" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1590051481476" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587724838367" />
     <state x="1457" y="97" key="new project wizard" timestamp="1589892505245">
       <screen x="1366" y="0" width="1920" height="1040" />

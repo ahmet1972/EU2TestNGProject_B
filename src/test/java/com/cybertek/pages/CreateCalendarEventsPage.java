@@ -51,7 +51,7 @@ public class CreateCalendarEventsPage extends BasePage {
 
 
 
-    public Select repeatOptionsList(){
+    public Select repeatOptionsList(){  //we use it with the dropdowns with "Select" tagName
         return new Select(repeatOptions);
     }
 
