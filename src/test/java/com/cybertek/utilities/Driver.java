@@ -16,13 +16,14 @@ public class Driver {
 
     private Driver() {}
 
+    //Below, we declare driver variable of WebDriver type
     private static WebDriver driver;
 
     public static WebDriver get() {
         if (driver == null) {
-            String browser = ConfigurationReader.get("browser"); //retrieves/reads the value of "key" called "browser"
-            switch (browser) {                             //with the help of ConfigurationReader interface/Class(?)
-                case "chrome":                             //from properties file which populates the keys and values
+            String browser = ConfigurationReader.get("browser"); //retrieves/reads the value of "browser" from
+            switch (browser) {                             //configuration.properties file with the help of
+                case "chrome":                             //ConfigurationReader Class
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;

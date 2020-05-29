@@ -30,9 +30,10 @@ public abstract class BasePage {
     public WebElement myUser;
 
  /*
-We need this code to create this class as a page abject model. PageFactory is a class from Selenium.
-The term "Page Factory" is an inbuilt Page Object Model concept for Selenium WebDriver but it is very optimized.
-With the help of PageFactory class, we use @FindBy to find WebElement. We use initElements method to initialize web elements.
+Below is the constructor of the class.
+It includes initElements method from PageFactory class to create this class as a page abject model. PageFactory class is
+from Selenium. "PageFactory" is an inbuilt Page Object Model concept for Selenium WebDriver but it is very optimized.
+With the help of PageFactory class, we use @FindBy to find WebElement and initElements method to initialize web elements.
  */
 
     public BasePage() {

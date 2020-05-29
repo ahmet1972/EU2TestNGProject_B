@@ -28,7 +28,8 @@ public class ListOfElements {
         //loop for each button, we can implement selenium methods
         for (WebElement button : buttons) {
             System.out.println("button.isDisplayed() = " + button.isDisplayed());
-            Assert.assertTrue(button.isDisplayed());
+            Assert.assertTrue(button.isDisplayed());//upper line does not verify if the button is displayed in the
+                                            // report of the test. Assert class methods do it.
         }
 
         //click only second button from the list

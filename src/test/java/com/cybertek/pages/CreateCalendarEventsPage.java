@@ -17,6 +17,7 @@ public class CreateCalendarEventsPage extends BasePage {
 
     @FindBy(css = "[id^='recurrence-repeats-view']")
     public WebElement repeatOptions;
+
     @FindBy(className = "select2-chosen")
     public WebElement selectedOwner;
 
@@ -25,6 +26,7 @@ public class CreateCalendarEventsPage extends BasePage {
 
     @FindBy(css = "[id^='date_selector_oro_calendar_event_form_start']")
     public WebElement startDate;
+
     @FindBy(css = "[id^='date_selector_oro_calendar_event_form_end']")
     public WebElement endDate;
 
@@ -50,8 +52,9 @@ public class CreateCalendarEventsPage extends BasePage {
     public WebElement by;
 
 
-
-    public Select repeatOptionsList(){  //we use it with the dropdowns with "Select" tagName
+//Constructor. A check is made that the given element is, indeed, a SELECT tag. If it is not, then an
+// UnexpectedTagNameException is thrown.The's why we use it with the dropdowns with "Select" tagName
+    public Select repeatOptionsList(){
         return new Select(repeatOptions);
     }
 

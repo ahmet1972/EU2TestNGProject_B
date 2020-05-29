@@ -54,8 +54,33 @@ public class MultipleWindows {
         }
 
         System.out.println("Title after switching window: "+driver.getTitle());
+    }
+
+    @Test
+    public void moreThan2Window () {
+        driver.get("http://practice.cybertekschool.com/windows");
+
+        driver.findElement(By.linkText("Click Here")).click();
+
+        Set<String> windowHandles = driver.getWindowHandles();
+
+        //loop through each window
+        for (String handle : windowHandles) {
+            //one by one
+            driver.switchTo().window(handle);
+
+            //once the title is equal to expected window title
+            if(driver.getTitle().equals("New Window")){
+                //stop switching windows. You are at the right window
+                break;
+            }
+        }
+
+        System.out.println("Title after switching window: "+driver.getTitle());
+
+        System.out.println(driver.findElement(By.tagName("h3")).getText());
+
 
 
     }
-
 }

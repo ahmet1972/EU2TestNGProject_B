@@ -29,8 +29,8 @@ public class ThreadSleepExample {
 
         driver.get("http://practice.cybertekschool.com/dynamic_loading/3");
 
-//While the page is being loaded WebDriver couldn't interact with html page in which the specified webElement
-// loated. WebDriver can inspect and locate the webElement but interaction is prevented.
+//While the page is being loaded WebDriver couldn't interact with html page until the specified webElement is fully
+// loaded. WebDriver can inspect and locate the webElement but interaction is prevented.
 // Basically it's hidden behind the loading bar. So, we need to delay the localisation attempt of WebDriver.
 // That's why we ad below statement before the locating statement.
 

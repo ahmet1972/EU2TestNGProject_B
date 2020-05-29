@@ -124,7 +124,7 @@ public class WebTablesExample {
 
         }
 
-        //create a method that accepts row and col number, and returns the cell as a webelement
+        //create a method that accepts row and col number, and returns the cell as a webElement
 
     }
 

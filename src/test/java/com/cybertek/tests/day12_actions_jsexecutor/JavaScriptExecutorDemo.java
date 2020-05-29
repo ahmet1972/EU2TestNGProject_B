@@ -31,7 +31,7 @@ public class JavaScriptExecutorDemo {
         //clicking with JavascriptExecutor Interface
         //create js executor polymorphic object (Parent must be WebDriver and child is JavascriptExecutor)
         //JavascriptExecutor comes from Selenium. We down-cast driver to JavascriptExecutor.
-        //So, Webdriver should be parent of JavascriptExecutor
+        //So, Webdriver should be the parent of JavascriptExecutor
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         //use executeScript which is the only one we will use
         jse.executeScript("arguments[0].click();",dropdownLink);
