@@ -25,7 +25,9 @@ public class NegativeLoginTestWithReport extends TestBase {
 
         extentLogger.info("Verify page url");
         Assert.assertEquals(driver.getCurrentUrl(),"https://qa3.vytrack.com/user/login");
-        //we put after assertion so if the assertion fails, it will not send pass to report
+
+        //We typed below line after the assertion as we send report as long as the test passes.
+        //If the assertion fails, test will not execute below line so it will not send the report of pass.
         extentLogger.pass("Wrong Passord Test is passed");
     }
 

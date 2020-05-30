@@ -51,9 +51,13 @@ public class CreateCalendarEventsPage extends BasePage {
     @FindBy(xpath = "(//input[@type='radio'])[5]")
     public WebElement by;
 
-
-//Constructor. A check is made that the given element is, indeed, a SELECT tag. If it is not, then an
-// UnexpectedTagNameException is thrown.The's why we use it with the dropdowns with "Select" tagName
+//If a dropdown has "select" tagname, then we need to create an object to utilise the Select class methods.
+//To do that, we need to pass the location of dropdown WebElement to the constructor of the Select class.
+//Below, we pass the location of the WebElement to the constructor of the Select class.
+//Then the constructor checks whether the passed argument is a WebElement or not. If it's, then the it allows our
+//argument initialise the the "private final WebElement element" field.
+//In this way we create the object from the Select class. Below method returns an object of Select class.
+//That's why we use below method for this operation for the dropdown elements which has a select tagname on the webPages.
     public Select repeatOptionsList(){
         return new Select(repeatOptions);
     }

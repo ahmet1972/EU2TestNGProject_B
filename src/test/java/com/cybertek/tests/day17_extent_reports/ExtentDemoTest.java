@@ -30,7 +30,6 @@ public class ExtentDemoTest {
         //attach the html report to report object
         report.attachReporter(htmlReporter);
 
-
         //title in report
         htmlReporter.config().setReportName("Vytrack Smoke Test");
 
@@ -38,9 +37,7 @@ public class ExtentDemoTest {
         report.setSystemInfo("Environment","QA");
         report.setSystemInfo("Browser","Chrome");
         report.setSystemInfo("Tester","Cybertek Testers");
-
     }
-
 
     @Test
     public void test1(){
@@ -61,17 +58,13 @@ public class ExtentDemoTest {
 
         //pass()--> marks the test case as passed
         extentLogger.pass("TC123 is passed");
-
     }
-
 
     @AfterMethod
     public void teardown(){
         //this is when the report is actually created
         report.flush();
     }
-
-
 
 }
 

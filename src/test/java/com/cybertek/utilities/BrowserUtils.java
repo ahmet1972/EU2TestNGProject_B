@@ -63,7 +63,8 @@ public class BrowserUtils {
 
     /**
      * return a list of string from a list of elements
-     *
+     * Ahmet's Note: We use this method to convert the actual list of dropdown WebElement to be able to compare when the
+     * expected result is a List of String type.
      * @param list of webelements
      * @return list of string
      */

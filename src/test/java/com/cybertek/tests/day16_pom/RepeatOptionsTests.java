@@ -70,6 +70,9 @@ public class RepeatOptionsTests extends TestBase {
         createCalendarEventsPage.waitUntilLoaderScreenDisappear();
         createCalendarEventsPage.repeat.click();
 
+        //We create an object from Select class in the CreateCalendarEventsPage in repeatOptionsList() methods.
+        //That's why we just need to call the corresponding method and assign it to a Select variable as we will
+        //repeatedly use it.
         Select repeatDropdown = createCalendarEventsPage.repeatOptionsList();
 
         List<String> expectedList = Arrays.asList("Daily","Weekly", "Monthly","Yearly");
@@ -83,7 +86,8 @@ public class RepeatOptionsTests extends TestBase {
             actualList.add(option.getText());
         }
 
-        //another way of getting list with ready method
+        //Hurray we have got a ready-to-use method in our treasure box; BrowserUtils class.
+
         List<String> actualList2 = BrowserUtils.getElementsText(actualOptions);
 
         Assert.assertEquals(actualList,expectedList,"verify dropdown options");
