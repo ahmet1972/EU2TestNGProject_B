@@ -10,10 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -23,10 +20,10 @@ public class TestBase {
     protected WebDriver driver;
     protected Actions actions;
     protected WebDriverWait wait;
-    protected ExtentReports report;
-    protected ExtentHtmlReporter htmlReporter;
-    protected ExtentTest extentLogger;
-
+    protected static ExtentReports report;
+    protected static ExtentHtmlReporter htmlReporter;
+    protected static ExtentTest extentLogger;
+    protected String url;
     @BeforeTest
     public void setUpTest(){
         //initialize the class
@@ -53,13 +50,24 @@ public class TestBase {
     }
 
     @BeforeMethod
-    public void setUpMethod(){
+    @Parameters("env")
+    public void setUpMethod(@Optional String env){
+        System.out.println("env = " + env);
+
+        //if env variable is null use default url
+        if(env==null){
+            url=ConfigurationReader.get("url");
+        }else{
+            url=ConfigurationReader.get(env+"_url");
+        }
+        //if it is not null, choose env based on value
         driver = Driver.get();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         actions = new Actions(driver);
         wait = new WebDriverWait(driver,10);
-        driver.get(ConfigurationReader.get("url"));
+
+        driver.get(url);
 
     }
 
